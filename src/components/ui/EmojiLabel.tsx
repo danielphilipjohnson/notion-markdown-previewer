@@ -4,7 +4,7 @@ interface EmojiLabelProps {
 }
 
 const EmojiLabel: React.FC<EmojiLabelProps> = ({ emoji, text }) => (
-	<span className="text-gray-300 text-sm flex items-center">
+	<span className="text-gray-300 text-md flex items-center">
 		<span className="mr-1">{emoji}</span> {text}
 	</span>
 );
